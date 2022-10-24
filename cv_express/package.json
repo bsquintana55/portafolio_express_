@@ -12,7 +12,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-   
+    "start": "node index",
+    "micom": "node index",
+    "dev": "nodemon --watch ./index.js"
   },
   "author": "Solangie Quintana",
   "license": "ISC"
